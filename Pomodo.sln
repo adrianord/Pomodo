@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{5E441783-B1CD-4AB8-895C-BA67C2F7F43A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFFCE48F-ED52-4B72-A019-4D9E00681426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5B766BD2-F11A-4984-B5FA-D04E72D910DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodo.Web", "src\Pomodo.Web\Pomodo.Web.csproj", "{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodo.Bootstrap", "src\Pomodo.Bootstrap\Pomodo.Bootstrap.csproj", "{6B19F4DA-99A7-427E-BBEC-D1F30512F91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodo.Common", "src\Pomodo.Common\Pomodo.Common.csproj", "{438B247C-5077-4125-B02F-4CFB7F4940ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodo.Infrastructure", "src\Pomodo.Infrastructure\Pomodo.Infrastructure.csproj", "{0D5167F6-3F2A-4065-BD4C-A9937EF34945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{C3B3501C-9848-4E46-A14C-85A3E8075D4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{6CDF2AD4-B0E7-45CC-BE8A-33EE72A46B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EB28F51B-26EF-4A4A-AD62-103919743DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3B3501C-9848-4E46-A14C-85A3E8075D4B} = {DFFCE48F-ED52-4B72-A019-4D9E00681426}
+		{0D5167F6-3F2A-4065-BD4C-A9937EF34945} = {C3B3501C-9848-4E46-A14C-85A3E8075D4B}
+		{6CDF2AD4-B0E7-45CC-BE8A-33EE72A46B91} = {DFFCE48F-ED52-4B72-A019-4D9E00681426}
+		{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB} = {6CDF2AD4-B0E7-45CC-BE8A-33EE72A46B91}
+		{EB28F51B-26EF-4A4A-AD62-103919743DC3} = {DFFCE48F-ED52-4B72-A019-4D9E00681426}
+		{6B19F4DA-99A7-427E-BBEC-D1F30512F91B} = {EB28F51B-26EF-4A4A-AD62-103919743DC3}
+		{438B247C-5077-4125-B02F-4CFB7F4940ED} = {EB28F51B-26EF-4A4A-AD62-103919743DC3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13629B1-C91E-4755-8EDC-CDB2EACEBDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B19F4DA-99A7-427E-BBEC-D1F30512F91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B19F4DA-99A7-427E-BBEC-D1F30512F91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B19F4DA-99A7-427E-BBEC-D1F30512F91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B19F4DA-99A7-427E-BBEC-D1F30512F91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438B247C-5077-4125-B02F-4CFB7F4940ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438B247C-5077-4125-B02F-4CFB7F4940ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438B247C-5077-4125-B02F-4CFB7F4940ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438B247C-5077-4125-B02F-4CFB7F4940ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5167F6-3F2A-4065-BD4C-A9937EF34945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5167F6-3F2A-4065-BD4C-A9937EF34945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5167F6-3F2A-4065-BD4C-A9937EF34945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5167F6-3F2A-4065-BD4C-A9937EF34945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
